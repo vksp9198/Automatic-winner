@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/src/output.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+        <title>Mauli_warriors</title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+
+    <body class="bg-gray-950 text-white">
+        <!-- Navbar -->
+        <nav class="bg-gray-900/70 backdrop-blur-lg fixed w-full top-0 z-50 border-b border-gray-800">
+            <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+                <div class="flex items-center justify-center">
+                    <img src="assets/MW Logo Without Name.png" alt="logo" srcset="" height="34px" width="34px">
+                    <h1 class="text-2xl font-bold px-3 mx-3 border-l-4 text-amber-400">
+                        Mauli<span class="text-white"> Warriors</span>
+                </div>
+                </h1>
+
+                <ul class="hidden md:flex space-x-8 text-white-100 font-medium">
+                    <li><a href="#home" class="hover:text-yellow-400 transition">Home</a></li>
+                    <li><a href="#services" class="hover:text-yellow-400 transition">Services</a></li>
+                    <li><a href="#tournaments" class="hover:text-yellow-400 transition">Tournaments</a></li>
+                    <li><a href="#teams" class="hover:text-yellow-400 transition">Teams</a></li>
+                    <li><a href="#pricing" class="hover:text-yellow-400 transition">Pricing</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400 transition">Contact</a></li>
+                </ul>
+                <div class="flex justify-evenly align-middle gap-4">
+                    <a href="#"
+                        class=" ud hidden md:block px-6 py-3 border border-gray-700 hover:border-yellow-500 rounded-xl font-semibold transition">
+                        <i class="ri-user-line"> Sign in </i>
+                    </a>
+                    <a href="#contact"
+                        class=" ud hidden md:block px-6 py-3 border border-gray-700 hover:bg-blue-800 rounded-xl font-semibold transition">
+                        <i class="ri-user-add-line"> Join Now </i>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="xl:hidden md:hidden text-gray-300 text-2xl">
+                    ☰
+                </button>
+                <button id="menuBtnClose" class="hidden xl:hidden md:hidden text-gray-300 text-2xl">
+                    <i class="ri-close-large-line"></i>
+                </button>
+
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobileMenu" class=" hidden md:hidden bg-gray-900 border-t border-gray-800">
+                <ul class="flex flex-col p-6 space-y-4 text-gray-300 font-medium">
+                    <li><a href="#home" class="hover:text-yellow-400 transition sideLink"><i
+                                class="ri-home-line text-xl"></i>
+                            Home</a>
+                    </li>
+                    <li><a href="#services" class="hover:text-yellow-400 transition sideLink"><i
+                                class="ri-service-line text-xl"></i>
+                            Services</a></li>
+                    <li><a href="#tournaments" class="hover:text-yellow-400 transition sideLink"> <i
+                                class="ri-user-line text-xl"></i>
+                            Tournaments</a></li>
+                    <li><a href="#teams" class="hover:text-yellow-400 transition sideLink"> <i
+                                class="ri-team-line text-xl"></i>
+                            Teams</a></li>
+                    <li><a href="#pricing" class="hover:text-yellow-400 transition sideLink"> <i
+                                class="ri-user-line text-xl"></i>
+                            Pricing</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400 transition sideLink"> <i
+                                class="ri-contacts-line text-xl"></i>
+                            Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="pt-28 pb-20 px-6">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+                <div>
+                    <h2 class="text-2xl md:text-4xl font-bold leading-tight">
+                        Level Up Your <span class="text-yellow-400">Esports</span> Experience
+                        with <span class="text-yellow-400">Mauli</span> Warriors
+                    </h2>
+                    <p class="mt-6 text-gray-200 text-lg">
+                        Host tournaments, manage teams, stream esports events, and build your competitive gaming
+                        community with ease.
+                    </p>
+
+                    <div class="mt-8 flex gap-4">
+                        <a href="#tournaments"
+                            class="px-6 py-3 text-black bg-yellow-300 hover:bg-yellow-400 rounded-xl font-semibold transition">
+                            Explore Tournaments
+                        </a>
+
+                        <a href="#services"
+                            class="px-6 py-3 border border-gray-700 hover:border-yellow-500 rounded-xl font-semibold transition">
+                            View Services
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <div class=" bg-gray-900 border border-gray-800 rounded-2xl p-8 shadow-lg">
+                    <h3 class="text-xl font-bold text-yellow-400">🔥 Upcoming Event</h3>
+                    <p class="mt-3 text-2xl font-bold">Valorant Clash 2026</p>
+                    <p class="mt-2 text-gray-400">Prize Pool: ₹50,000</p>
+                    <p class="mt-1 text-gray-400">Date: 20 April 2026</p>
+
+                    <button
+                        class="mt-6 w-full py-3 text-black bg-yellow-500 hover:bg-yellow-400 rounded-xl font-semibold transition">
+                        Register Now
+                    </button>
+                </div> -->
+                <div class=" bg-gray-900 border border-gray-800 rounded-2xl shadow-lg">
+                    <img src="assets/MAULI WARRIORS .png" alt="heroImg" class="rounded-2xl object-cover">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="py-20 px-6 bg-gray-950">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center">
+                    Our <span class="text-yellow-500">Services</span>
+                </h2>
+                <p class="text-gray-400 text-center mt-4 max-w-2xl mx-auto">
+                    We provide complete esports solutions from tournament management to broadcasting.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-8 mt-12">
+
+                    <div
+                        class="ud bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">🎮 Tournament Management</h3>
+                        <p class="mt-3 text-gray-400">
+                            Create and manage esports tournaments with brackets, registration, and match tracking.
+                        </p>
+                        <p class="mt-3 text-gray-300 font-bold hover:text-blue-600">Explore now <i
+                                class="ri-arrow-right-up-line text-l text-center"></i>
+                        </p>
+                    </div>
+
+                    <div
+                        class="ud bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">📡 Live Broadcasting</h3>
+                        <p class="mt-3 text-gray-400">
+                            Professional live streaming with overlays, shoutcasting, and high-quality production.
+                        </p>
+                        <p class="mt-3 text-gray-300 font-bold hover:text-blue-600">Explore now <i
+                                class="ri-arrow-right-up-line text-l text-center"></i>
+                        </p>
+                    </div>
+
+                    <div
+                        class="ud bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">🏆 Team Management</h3>
+                        <p class="mt-3 text-gray-400">
+                            Register teams, manage rosters, and build esports communities.
+                        </p>
+                        <p class="mt-4 pt-4 text-gray-300 font-bold hover:text-blue-600">Explore now <i
+                                class="ri-arrow-right-up-line text-l text-center"></i>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Tournaments -->
+        <section id="tournaments" class="py-20 px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center">
+                    Featured <span class="text-yellow-500">Tournaments</span>
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8 mt-12">
+
+                    <div class="ud bg-gray-900 border border-gray-800 p-6 rounded-2xl hover:scale-105 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">BGMI Warzone</h3>
+                        <p class="text-gray-400 mt-2">Prize Pool: ₹25,000</p>
+                        <p class="text-gray-400 mt-1">Mode: Squad</p>
+                        <button
+                            class="mt-5 w-full py-2 bg-yellow-600 hover:bg-yellow-700 rounded-xl font-semibold transition">
+                            Join Tournament
+                        </button>
+                    </div>
+
+                    <div class="ud bg-gray-900 border border-gray-800 p-6 rounded-2xl hover:scale-105 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">Valorant Night League</h3>
+                        <p class="text-gray-400 mt-2">Prize Pool: ₹50,000</p>
+                        <p class="text-gray-400 mt-1">Mode: 5v5</p>
+                        <button
+                            class="mt-5 w-full py-2 bg-yellow-600 hover:bg-yellow-700 rounded-xl font-semibold transition">
+                            Join Tournament
+                        </button>
+                    </div>
+
+                    <div class="ud bg-gray-900 border border-gray-800 p-6 rounded-2xl hover:scale-105 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">Free Fire Rush</h3>
+                        <p class="text-gray-400 mt-2">Prize Pool: ₹10,000</p>
+                        <p class="text-gray-400 mt-1">Mode: Duo</p>
+                        <button
+                            class="mt-5 w-full py-2 bg-yellow-600 hover:bg-yellow-700 rounded-xl font-semibold transition">
+                            Join Tournament
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Teams -->
+        <section id="teams" class="py-20 px-6 bg-gray-950">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center">
+                    Top <span class="text-yellow-500">Teams</span>
+                </h2>
+
+                <div class="grid md:grid-cols-4 gap-6 mt-12">
+
+                    <div
+                        class="bg-gray-900 border border-gray-800 p-6 rounded-2xl text-center hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">Team Phoenix</h3>
+                        <p class="text-gray-400 mt-2">Valorant</p>
+                    </div>
+
+                    <div
+                        class="bg-gray-900 border border-gray-800 p-6 rounded-2xl text-center hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">Shadow Warriors</h3>
+                        <p class="text-gray-400 mt-2">BGMI</p>
+                    </div>
+
+                    <div
+                        class="bg-gray-900 border border-gray-800 p-6 rounded-2xl text-center hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">Thunder Esports</h3>
+                        <p class="text-gray-400 mt-2">Free Fire</p>
+                    </div>
+
+                    <div
+                        class="bg-gray-900 border border-gray-800 p-6 rounded-2xl text-center hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">Quantum Legends</h3>
+                        <p class="text-gray-400 mt-2">CS2</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section id="pricing" class="py-20 px-6">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center">
+                    Pricing <span class="text-yellow-500">Plans</span>
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-8 mt-12">
+
+                    <div
+                        class="ud bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">Basic Pack</h3>
+                        <p class="text-3xl font-bold mt-3">₹999</p>
+                        <ul class="mt-5 space-y-2 text-gray-400">
+                            <li>✔ Tournament Setup</li>
+                            <li>✔ Team Registration</li>
+                            <li>✔ Basic Support</li>
+                        </ul>
+                        <button
+                            class="mt-6 w-full py-3 bg-yellow-600 hover:bg-yellow-700 rounded-xl font-semibold transition">
+                            Choose Plan
+                        </button>
+                    </div>
+
+                    <div class="ud bg-gray-900 border border-yellow-500 p-8 rounded-2xl scale-105 shadow-xl">
+                        <h3 class="text-xl font-bold text-yellow-400">Premium Pack</h3>
+                        <p class="text-3xl font-bold mt-3">₹1999</p>
+                        <ul class="mt-5 space-y-2 text-gray-300">
+                            <li>✔ Tournament Setup</li>
+                            <li>✔ Team + Player Management</li>
+                            <li>✔ Live Score Updates</li>
+                            <li>✔ Priority Support</li>
+                        </ul>
+                        <button
+                            class="mt-6 w-full py-3 bg-yellow-600 hover:bg-yellow-700 rounded-xl font-semibold transition">
+                            Choose Plan
+                        </button>
+                    </div>
+
+                    <div
+                        class="ud bg-gray-900 border border-gray-800 p-8 rounded-2xl hover:border-yellow-500 transition">
+                        <h3 class="text-xl font-bold text-yellow-400">Enterprise Pack</h3>
+                        <p class="text-3xl font-bold mt-3">₹4999</p>
+                        <ul class="mt-5 space-y-2 text-gray-400">
+                            <li>✔ Full Event Management</li>
+                            <li>✔ Streaming + Casting</li>
+                            <li>✔ Sponsorship Support</li>
+                            <li>✔ 24/7 Support</li>
+                        </ul>
+                        <button
+                            class="mt-6 w-full py-3 bg-yellow-600 hover:bg-yellow-700 rounded-xl font-semibold transition">
+                            Choose Plan
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-20 px-6 bg-gray-950">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold">
+                    Contact <span class="text-yellow-500">Us</span>
+                </h2>
+                <p class="text-gray-400 mt-4">
+                    Want to host a tournament or build your esports brand? Send us a message.
+                </p>
+
+                <form class="mt-10 space-y-5">
+                    <input type="text" placeholder="Your Name"
+                        class="w-full p-4 rounded-xl bg-gray-900 border border-gray-800 focus:border-yellow-500 outline-none" />
+
+                    <input type="email" placeholder="Your Email"
+                        class="w-full p-4 rounded-xl bg-gray-900 border border-gray-800 focus:border-yellow-500 outline-none" />
+
+                    <textarea placeholder="Your Message" rows="5"
+                        class="w-full p-4 rounded-xl bg-gray-900 border border-gray-800 focus:border-yellow-500 outline-none"></textarea>
+
+                    <button type="submit"
+                        class=" ud w-full py-4 bg-yellow-600 hover:bg-yellow-700 rounded-xl font-semibold transition">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-950 border-t border-gray-800 py-8 px-6 text-center">
+            <div class="grid md:grid-cols-4 gap-3 mt-5 mb-4 px-4 place-content-center">
+
+                <div class="flex flex-col justify-end-safe">
+                    <div class="flex">
+                        <img src="assets/MW Logo Without Name.png" alt="logo"
+                            class="h-12 w-12 object-cover items-center mx-3">
+                        <h1 class="mx-0.6 px-3 my-auto text-2xl border-l-4 text-amber-400 font-bold"><span
+                                class="text-white">Mauli</span>
+                            Warriors
+                        </h1>
+                    </div>
+                    <div class="mt-0 text-gray-500">Mauli Warriors provide professional esports tounament management ,
+                        custoum rooms , and competitive events for gamers.
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center flex-col">
+                    <h1 class=" border-l-4 border-amber-400 pl-2 mt-3 text-yellow-400 text-xl">TOURNAMENTS</h1>
+                    <a href="" class=" my-1 group inline-block text-gray-400 hover:text-white transition duration-300">
+                        Past Events
+                        <span class="block h-1 w-0 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="" class=" my-1 group inline-block text-gray-400 hover:text-white transition duration-300">
+                        Active Events
+                        <span class="block h-1 w-0 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="" class=" my-1 group inline-block text-gray-400 hover:text-white transition duration-300">
+                        Prize Pools
+                        <span class="block h-1 w-0 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="" class=" my-1 group inline-block text-gray-400 hover:text-white transition duration-300">
+                        Upcomming Events
+                        <span class="block h-1 w-0 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+
+
+                </div>
+
+                <div class="flex justify-center items-center flex-col">
+                    <h1 class=" border-l-4 border-amber-400 pl-2 text-yellow-400 text-xl">RESOURCES</h1>
+                    <a href="" class=" my-1 group inline-block text-gray-400 hover:text-white transition duration-300">
+                        About Us
+                        <span class="block h-1 w-0 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="" class=" my-1 group inline-block text-gray-400 hover:text-white transition duration-300">
+                        FAQs
+                        <span class="block h-1 w-0 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="" class=" my-1 group inline-block text-gray-400 hover:text-white transition duration-300">
+                        Support
+                        <span class="block h-1 w-0 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                    <a href="" class=" my-1 group inline-block text-gray-400 hover:text-white transition duration-300">
+                        Help Center
+                        <span class="block h-1 w-0 bg-amber-400 transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </div>
+
+                <div class="flex justify-center items-center flex-col">
+                    <h1 class=" border-l-4 border-amber-400 pl-2 text-yellow-400 text-xl">FOLLOW US</h1>
+                    <div class="grid  grid-cols-2 mt-2 ">
+                        <a href="https://www.instagram.com/mauliwarriors.in/" class="inline my-1 mx-2">
+                            <i class="ri-instagram-line text-2xl text-white"></i>
+                            <p class="text-gray-300">Instagram</p>
+                        </a>
+                        <a href="https://youtube.com/@mauliwarriorsofficial1533?si=RRvWRcu5MgN3jgZv"
+                            class="block my-1 mx-2">
+                            <i class="ri-youtube-line text-2xl text-gray-300"></i>
+                            <p class="text-gray-300">Youtube</p>
+                        </a>
+                        <a href="https://github.com/vksp9198" class="block my-1 mx-2">
+                            <i class="ri-discord-line text-2xl text-gray-300"></i>
+                            <p class="text-gray-300">Discord</p>
+                        </a>
+                        <a href="https://wa.me/8369961434" class="block my-1 mx-2">
+                            <i class="ri-whatsapp-line text-2xl text-gray-300"></i>
+                            <p class="text-gray-300">Whatsapp</p>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr class="text-slate-600">
+            <p class="text-gray-300 mt-4">
+                &copy; 2026 Mauli Warriors. All Rights Reserved. Privacy Policy | Terms of Services.
+            </p>
+
+        </footer>
+
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>
