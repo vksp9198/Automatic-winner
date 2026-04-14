@@ -1,12 +1,12 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx  @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.2.2"
   },
   "devDependencies": {
-    "tailwindcss": "^4.2.2"
+    " @tailwindcss/cli": "^4.2.2"
   }
 }
